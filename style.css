@@ -1,0 +1,27 @@
+main {
+  max-width: 80%;
+  margin: auto;
+}
+
+.welcome-text {
+  text-align: center;
+  margin: 30px auto 15px auto;
+}
+
+.card-container {
+  max-width: 1200px; /* Set the max width of the card container */
+  display: flex;
+  flex-wrap: wrap; /* To wrap cards onto next line when parent container is too small */
+  justify-content: center; /* To center the cards */
+}
+
+.card {
+  width: 300px; /* Set the width of each card */
+  margin: 15px 6.5px 0 6.5px; /* Add some margin between each card */
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
